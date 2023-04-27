@@ -1,0 +1,16 @@
+/* Make the "Skip to main content" button less obtrusive */
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.skip-to-content:hover {
+    opacity: 1.0;
+}

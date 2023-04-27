@@ -944,7 +944,7 @@ break               for                 not
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>helloword
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>hellword
 </pre></div>
 </div>
 </div>
@@ -1006,8 +1006,7 @@ world
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>123456
-abcd
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>abcd56
 </pre></div>
 </div>
 </div>
@@ -1826,14 +1825,14 @@ My Number is: 10.00
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Truncate string</span>
-<span class="n">myLongString</span> <span class="o">=</span> <span class="s2">&quot;Hello Peoples of Elzero Web School I Love You All&quot;</span>
+<span class="n">myLongString</span> <span class="o">=</span> <span class="s2">&quot;Hello People of Elzero Web School I Love You All&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Message is </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">myLongString</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Message is </span><span class="si">%.5s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">myLongString</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Message is Hello Peoples of Elzero Web School I Love You All
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Message is Hello People of Elzero Web School I Love You All
 Message is Hello
 </pre></div>
 </div>
@@ -2892,7 +2891,7 @@ C
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;Ahmed&#39;, &#39;Osama&#39;, 100}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;Osama&#39;, &#39;Ahmed&#39;, 100}
 </pre></div>
 </div>
 </div>
@@ -2917,7 +2916,7 @@ Error, unhashable type: ‘list’</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{True, 100.5, 100, &#39;Osama&#39;, (1, 2, 3)}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{True, &#39;Osama&#39;, 100.5, 100, (1, 2, 3)}
 </pre></div>
 </div>
 </div>
@@ -2932,7 +2931,7 @@ Error, unhashable type: ‘list’</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{1, 2, &#39;Osama&#39;, &#39;One&#39;}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{1, 2, &#39;One&#39;, &#39;Osama&#39;}
 </pre></div>
 </div>
 </div>
@@ -2967,9 +2966,9 @@ Error, unhashable type: ‘list’</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;One&#39;, &#39;1&#39;, &#39;Three&#39;, &#39;Two&#39;, &#39;2&#39;, &#39;3&#39;}
-{&#39;One&#39;, &#39;1&#39;, &#39;Three&#39;, &#39;Two&#39;, &#39;2&#39;, &#39;3&#39;}
-{&#39;One&#39;, &#39;1&#39;, &#39;Zero&#39;, &#39;Three&#39;, &#39;Two&#39;, &#39;2&#39;, &#39;3&#39;, &#39;Cool&#39;}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;2&#39;, &#39;One&#39;, &#39;3&#39;, &#39;Two&#39;, &#39;Three&#39;, &#39;1&#39;}
+{&#39;2&#39;, &#39;One&#39;, &#39;3&#39;, &#39;Two&#39;, &#39;Three&#39;, &#39;1&#39;}
+{&#39;2&#39;, &#39;One&#39;, &#39;3&#39;, &#39;Two&#39;, &#39;Cool&#39;, &#39;Three&#39;, &#39;1&#39;, &#39;Zero&#39;}
 </pre></div>
 </div>
 </div>
@@ -3122,9 +3121,9 @@ Error, unhashable type: ‘list’</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{1, 2, 3, 4, &#39;Osama&#39;, &#39;X&#39;}
-{2, &#39;Osama&#39;, &#39;X&#39;}
-{1, 2, 3, 4, &#39;Osama&#39;, &#39;X&#39;}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{1, 2, 3, 4, &#39;X&#39;, &#39;Osama&#39;}
+{&#39;Osama&#39;, 2, &#39;X&#39;}
+{1, 2, 3, 4, &#39;X&#39;, &#39;Osama&#39;}
 </pre></div>
 </div>
 </div>
@@ -3140,8 +3139,8 @@ Error, unhashable type: ‘list’</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{1, 2, 3, 4, &#39;Osama&#39;, &#39;X&#39;}
-{2, &#39;Osama&#39;, &#39;X&#39;}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{1, 2, 3, 4, &#39;X&#39;, &#39;Osama&#39;}
+{&#39;Osama&#39;, 2, &#39;X&#39;}
 </pre></div>
 </div>
 </div>
@@ -4115,7 +4114,7 @@ False
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;s&#39;, &#39;m&#39;, &#39;O&#39;, &#39;a&#39;}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;m&#39;, &#39;s&#39;, &#39;O&#39;, &#39;a&#39;}
 {1, 2, 3, 4, 5}
 {&#39;B&#39;, &#39;A&#39;, &#39;C&#39;}
 {&#39;B&#39;, &#39;A&#39;}
@@ -4159,25 +4158,7 @@ False
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">StdinNotImplementedError</span><span class="g g-Whitespace">                  </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">211</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">fName</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;What</span><span class="se">\&#39;</span><span class="s1">s Is Your First Name?&#39;</span><span class="p">)</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">mName</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;What</span><span class="se">\&#39;</span><span class="s1">s Is Your Middle Name?&#39;</span><span class="p">)</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">lName</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;What</span><span class="se">\&#39;</span><span class="s1">s Is Your Last Name?&#39;</span><span class="p">)</span>
-
-<span class="nn">File F:\miniconda3\envs\py311\Lib\site-packages\ipykernel\kernelbase.py:1190,</span> in <span class="ni">Kernel.raw_input</span><span class="nt">(self, prompt)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1188</span> <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_allow_stdin</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1189</span>     <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;raw_input was called, but this frontend does not support input requests.&quot;</span>
-<span class="ne">-&gt; </span><span class="mi">1190</span>     <span class="k">raise</span> <span class="n">StdinNotImplementedError</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1191</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_input_request</span><span class="p">(</span>
-<span class="g g-Whitespace">   </span><span class="mi">1192</span>     <span class="nb">str</span><span class="p">(</span><span class="n">prompt</span><span class="p">),</span>
-<span class="g g-Whitespace">   </span><span class="mi">1193</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_parent_ident</span><span class="p">[</span><span class="s2">&quot;shell&quot;</span><span class="p">],</span>
-<span class="g g-Whitespace">   </span><span class="mi">1194</span>     <span class="bp">self</span><span class="o">.</span><span class="n">get_parent</span><span class="p">(</span><span class="s2">&quot;shell&quot;</span><span class="p">),</span>
-<span class="g g-Whitespace">   </span><span class="mi">1195</span>     <span class="n">password</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-<span class="g g-Whitespace">   </span><span class="mi">1196</span> <span class="p">)</span>
-
-<span class="ne">StdinNotImplementedError</span>: raw_input was called, but this frontend does not support input requests.
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello Ahmed H Darwish Happy To See You.
 </pre></div>
 </div>
 </div>
